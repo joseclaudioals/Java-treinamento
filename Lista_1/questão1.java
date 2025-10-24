@@ -18,6 +18,6 @@ public class questão1{
         System.out.printf("Valor em reais = R$%.2f\nCotacao atual do dolar: RS$%.2f\nRS$%.2f em dolar: US$%.2f\n"
         ,valorReais, cotacaoDolar, valorReais, conversao);
         
-        
+        sc.close();
     }
 }

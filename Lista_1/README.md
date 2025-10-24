@@ -1,456 +1,456 @@
-### Exercícios 
+### Exercícios
 
-**1) Conversor de Reais para Dólares** 
+**1) Conversor de Reais para Dólares**
 
-**Enunciado**: Leia a cotação do dólar e um valor em reais. Mostre quantos dólares esse valor compra. 
+**Enunciado**: Leia a cotação do dólar e um valor em reais. Mostre quantos dólares esse valor compra.
 
-**Entrada**: cotacaoDolar (R$/US$), valorReais (R$) 
+**Entrada**: cotacaoDolar (R$/US$), valorReais (R$)
 
-**Processamento**: valorDolares ← valorReais / cotacaoDolar 
+**Processamento**: valorDolares ← valorReais / cotacaoDolar
 
-**Saída**: Valor em dólares com 2 casas 
+**Saída**: Valor em dólares com 2 casas
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-cotacaoDolar: 5.20 
+cotacaoDolar: 5.20
 
-valorReais: 260.00 
+valorReais: 260.00
 
-**Saída** 
+**Saída**
 
-Dólares: 50.00 
+Dólares: 50.00
 
 
 
-**2) Litros a Abastecer** 
+**2) Litros a Abastecer**
 
-**Enunciado**: Leia o preço do litro do combustível e o valor em dinheiro para abastecer. Mostre quantos litros serão comprados. 
+**Enunciado**: Leia o preço do litro do combustível e o valor em dinheiro para abastecer. Mostre quantos litros serão comprados.
 
-**Entrada**: precoComb (R$/L), valorAbast (R$) 
+**Entrada**: precoComb (R$/L), valorAbast (R$)
 
-**Processamento**: litros ← valorAbast / precoComb 
+**Processamento**: litros ← valorAbast / precoComb
 
-Saída: Litros com 2 casas 
+Saída: Litros com 2 casas
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-precoComb: 2.70 
+precoComb: 2.70
 
-valorAbast: 50.00 
+valorAbast: 50.00
 
-**Saída** 
+**Saída**
 
-Litros: 18.52 
+Litros: 18.52
 
 
 
-**3) Celsius → Fahrenheit** 
+**3) Celsius → Fahrenheit**
 
-**Enunciado**: Converta uma temperatura de Celsius para Fahrenheit. Fórmula: F ← (9 \* C + 160) / 5. 
+**Enunciado**: Converta uma temperatura de Celsius para Fahrenheit. Fórmula: F ← (9 \* C + 160) / 5.
 
-**Entrada**: C (°C) 
+**Entrada**: C (°C)
 
-**Processamento**: F ← (9 \* C + 160) / 5 
+**Processamento**: F ← (9 \* C + 160) / 5
 
-**Saída**: Temperatura em °F 
+**Saída**: Temperatura em °F
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-C: 25 
+C: 25
 
-**Saída** 
+**Saída**
 
-Fahrenheit: 77.0 
+Fahrenheit: 77.0
 
 
 
-**4) Área do Círculo** 
+**4) Área do Círculo**
 
-**Enunciado**: Leia o raio e calcule a área do círculo. 
+**Enunciado**: Leia o raio e calcule a área do círculo.
 
-**Entrada**: raio 
+**Entrada**: raio
 
-**Processamento**: area ← π \* raio \* raio 
+**Processamento**: area ← π \* raio \* raio
 
-**Saída**: Área com 2 casas 
+**Saída**: Área com 2 casas
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-raio: 3.0 
+raio: 3.0
 
-**Saída** 
+**Saída**
 
-Área: 28.27 
+Área: 28.27
 
 
 
-**5) Boleto em Atraso** 
+**5) Boleto em Atraso**
 
-**Enunciado**: Leia o valor do boleto, o percentual de juros ao dia e os dias de atraso. Calcule o novo valor. 
+**Enunciado**: Leia o valor do boleto, o percentual de juros ao dia e os dias de atraso. Calcule o novo valor.
 
-**Entrada**: valor (R$), juros (% ao dia), dias (int) Processamento: prestacao ← valor + (valor \* (juros/100)) \* dias 
+**Entrada**: valor (R$), juros (% ao dia), dias (int) Processamento: prestacao ← valor + (valor \* (juros/100)) \* dias
 
-**Saída**: Valor atualizado com 2 casas 
+**Saída**: Valor atualizado com 2 casas
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-valor: 1000.00 
+valor: 1000.00
 
-juros: 0.5 
+juros: 0.5
 
-dias: 10 
+dias: 10
 
-**Saída** 
+**Saída**
 
-Prestação: 1050.00 
+Prestação: 1050.00
 
 
 
-**6) Multa por Excesso de Velocidade** 
+**6) Multa por Excesso de Velocidade**
 
-**Enunciado**: Leia a velocidade de um carro. Se ultrapassar 80 km/h, exiba multa de R$ 5 por km acima do limite; caso contrário, informe que está dentro do limite. 
+**Enunciado**: Leia a velocidade de um carro. Se ultrapassar 80 km/h, exiba multa de R$ 5 por km acima do limite; caso contrário, informe que está dentro do limite.
 
-**Entrada**: vel (km/h) 
+**Entrada**: vel (km/h)
 
-**Processamento**: Se vel > 80, multa ← 5 \* (vel − 80); senão, multa = 0 
+**Processamento**: Se vel > 80, multa ← 5 \* (vel − 80); senão, multa = 0
 
-**Saída**: Mensagem com ou sem multa 
+**Saída**: Mensagem com ou sem multa
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-vel: 90 
+vel: 90
 
-**Saída** 
+**Saída**
 
-Multado! Valor da multa: 50.00 
+Multado! Valor da multa: 50.00
 
 
 
-**7) Reajuste Salarial** 
+**7) Reajuste Salarial**
 
-**Enunciado**: Leia o salário e calcule o novo salário: > R$ 1.250,00 → +10%; ≤ R$ 1.250,00 → +15%. 
+**Enunciado**: Leia o salário e calcule o novo salário: > R$ 1.250,00 → +10%; ≤ R$ 1.250,00 → +15%.
 
-**Entrada**: salario (R$) 
+**Entrada**: salario (R$)
 
-**Processamento**: Aplicar a regra de reajuste conforme a faixa 
+**Processamento**: Aplicar a regra de reajuste conforme a faixa
 
-**Saída**: Novo salário com 2 casas 
+**Saída**: Novo salário com 2 casas
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-salario: 1000.00 
+salario: 1000.00
 
-**Saída** 
+**Saída**
 
-Novo salário: 1150.00 
+Novo salário: 1150.00
 
 
 
-**8) Preço da Passagem** 
+**8) Preço da Passagem**
 
-**Enunciado**: Leia a distância da viagem (km). Até 200 km: R$ 0,50/km; acima: R$ 0,45/km. 
+**Enunciado**: Leia a distância da viagem (km). Até 200 km: R$ 0,50/km; acima: R$ 0,45/km.
 
-**Entrada**: km 
+**Entrada**: km
 
-**Processamento**: tarifa por regra 
+**Processamento**: tarifa por regra
 
-**Saída**: Valor com 2 casas 
+**Saída**: Valor com 2 casas
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-km: 250 
+km: 250
 
-**Saída** 
+**Saída**
 
-Preço da passagem: 112.50 
+Preço da passagem: 112.50
 
 
 
-**9) Aprovação de Empréstimo Imobiliário** 
+**9) Aprovação de Empréstimo Imobiliário**
 
-**Enunciado**: Leia valor da casa, salário e anos para pagar. Prestação mensal = valorCasa / (anos \* 12); deve ser ≤ 30% do salário. 
+**Enunciado**: Leia valor da casa, salário e anos para pagar. Prestação mensal = valorCasa / (anos \* 12); deve ser ≤ 30% do salário.
 
-**Entrada**: valorCasa (R$), salario (R$), anos (int) 
+**Entrada**: valorCasa (R$), salario (R$), anos (int)
 
-**Processamento**: Calcular prestação e comparar com 0.30 \* salario 
+**Processamento**: Calcular prestação e comparar com 0.30 \* salario
 
-**Saída**: “Aprovado” ou “Negado” + prestação 
+**Saída**: “Aprovado” ou “Negado” + prestação
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-valorCasa: 240000 
+valorCasa: 240000
 
-salario: 4000 
+salario: 4000
 
-anos: 20 
+anos: 20
 
-**Saída** 
+**Saída**
 
-Aprovado. Prestação: 1000.00 
+Aprovado. Prestação: 1000.00
 
 
 
-**10) Contagem de 1 até N** 
+**10) Contagem de 1 até N**
 
-**Enunciado**: Leia N e imprima de 1 até N na mesma linha. 
+**Enunciado**: Leia N e imprima de 1 até N na mesma linha.
 
-**Entrada**: N (int) 
+**Entrada**: N (int)
 
-**Processamento**: laço de 1 a N 
+**Processamento**: laço de 1 a N
 
-**Saída**: números separados por espaço 
+**Saída**: números separados por espaço
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-N: 5 
+N: 5
 
-**Saída** 
+**Saída**
 
-1 2 3 4 5 
+1 2 3 4 5
 
 
 
-**11) Tabuada de Multiplicação** 
+**11) Tabuada de Multiplicação**
 
-**Enunciado**: Leia N e imprima a tabuada de 1 a 10 para N. 
+**Enunciado**: Leia N e imprima a tabuada de 1 a 10 para N.
 
-**Entrada**: N (int) 
+**Entrada**: N (int)
 
-**Processamento**: laço de 1 a 10 
+**Processamento**: laço de 1 a 10
 
-**Saída**: 10 linhas: N x i = resultado 
+**Saída**: 10 linhas: N x i = resultado
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-N: 7 
+N: 7
 
-**Saída** 
+**Saída**
 
-7 x 1 = 7 
+7 x 1 = 7
 
-7 x 2 = 14 
+7 x 2 = 14
 
-... 
+...
 
-7 x 10 = 70 
+7 x 10 = 70
 
 
 
-**12) Contagem de Pares e Ímpares** 
+**12) Contagem de Pares e Ímpares**
 
-**Enunciado**: Leia Q e, em seguida, Q números inteiros. Informe quantos são pares, quantos são ímpares e seus percentuais. 
+**Enunciado**: Leia Q e, em seguida, Q números inteiros. Informe quantos são pares, quantos são ímpares e seus percentuais.
 
-**Entrada**: Q (int), depois Q inteiros 
+**Entrada**: Q (int), depois Q inteiros
 
-**Processamento**: Contar pares/ímpares; % ← (quantidade / Q) \* 100 
+**Processamento**: Contar pares/ímpares; % ← (quantidade / Q) \* 100
 
-**Saída**: totais e percentuais com 1 casa 
+**Saída**: totais e percentuais com 1 casa
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-Q: 6 
+Q: 6
 
-números: 1 2 3 4 5 6 
+números: 1 2 3 4 5 6
 
-**Saída** 
+**Saída**
 
-Pares: 3 (50.0%) 
+Pares: 3 (50.0%)
 
-Ímpares: 3 (50.0%) 
+Ímpares: 3 (50.0%)
 
 
 
-**13) Primos em um Intervalo** 
+**13) Primos em um Intervalo**
 
-**Enunciado**: Leia A e B (A ≤ B) e liste todos os primos no intervalo, além da quantidade. 
+**Enunciado**: Leia A e B (A ≤ B) e liste todos os primos no intervalo, além da quantidade.
 
-**Entrada**: A (int), B (int) 
+**Entrada**: A (int), B (int)
 
-**Processamento**: Teste de primalidade para cada número 
+**Processamento**: Teste de primalidade para cada número
 
-**Saída**: lista e contagem 
+**Saída**: lista e contagem
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-A: 10 
+A: 10
 
-B: 20 
+B: 20
 
-**Saída** 
+**Saída**
 
-Primos: 11 13 17 19 
+Primos: 11 13 17 19
 
-Quantidade: 4 
+Quantidade: 4
 
 
 
-**14) Fatorial** 
+**14) Fatorial**
 
-**Enunciado**: Leia N (0 ≤ N ≤ 20) e calcule N!. 
+**Enunciado**: Leia N (0 ≤ N ≤ 20) e calcule N!.
 
-**Entrada**: N (int) 
+**Entrada**: N (int)
 
-**Processamento**: laço multiplicativo 
+**Processamento**: laço multiplicativo
 
-Saída: valor de N! 
+Saída: valor de N!
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-N: 5 
+N: 5
 
-**Saída** 
+**Saída**
 
-Fatorial: 120 
+Fatorial: 120
 
 
 
-**15) Fibonacci (N termos)** 
+**15) Fibonacci (N termos)**
 
-**Enunciado**: Leia N (N ≥ 1) e imprima os N primeiros termos da sequência de Fibonacci começando em 0, 1. 
+**Enunciado**: Leia N (N ≥ 1) e imprima os N primeiros termos da sequência de Fibonacci começando em 0, 1.
 
-**Entrada**: N (int) 
+**Entrada**: N (int)
 
-**Processamento**: laço somando os dois anteriores 
+**Processamento**: laço somando os dois anteriores
 
-**Saída**: termos em uma linha 
+**Saída**: termos em uma linha
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-N: 8 
+N: 8
 
-**Saída** 
+**Saída**
 
-0 1 1 2 3 5 8 13 
+0 1 1 2 3 5 8 13
 
 
 
-**16) MDC (Máximo Divisor Comum)** 
+**16) MDC (Máximo Divisor Comum)**
 
-**Enunciado**: Leia dois inteiros positivos e calcule o MDC (algoritmo de Euclides). 
+**Enunciado**: Leia dois inteiros positivos e calcule o MDC (algoritmo de Euclides).
 
-Entrada: a (int), b (int) 
+Entrada: a (int), b (int)
 
-**Processamento**: Enquanto b ≠ 0: temp ← b; b ← a % b; a ← temp 
+**Processamento**: Enquanto b ≠ 0: temp ← b; b ← a % b; a ← temp
 
-**Saída**: MDC 
+**Saída**: MDC
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-a: 54 
+a: 54
 
-b: 24 
+b: 24
 
-**Saída** 
+**Saída**
 
-MDC: 6 
+MDC: 6
 
 
 
-**17)  Estatística de Notas** 
+**17)  Estatística de Notas**
 
-**Enunciado**: Leia Q e depois Q notas (0.0 a 10.0). Mostre média, maior, menor e o percentual de notas ≥ 7.0. 
+**Enunciado**: Leia Q e depois Q notas (0.0 a 10.0). Mostre média, maior, menor e o percentual de notas ≥ 7.0.
 
-**Entrada**: Q (int), depois Q double 
+**Entrada**: Q (int), depois Q double
 
-**Processamento**: Acumular soma, rastrear extremos e contar ≥ 7.0 
+**Processamento**: Acumular soma, rastrear extremos e contar ≥ 7.0
 
-**Saída**: média (2 casas), maior, menor e percentual (1 casa) 
+**Saída**: média (2 casas), maior, menor e percentual (1 casa)
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-Q: 5 
+Q: 5
 
-notas: 10.0 8.0 7.0 5.0 5.0 
+notas: 10.0 8.0 7.0 5.0 5.0
 
-**Saída** 
+**Saída**
 
-Média: 7.00 
+Média: 7.00
 
-Maior: 10.00 
+Maior: 10.00
 
-Menor: 5.00 
+Menor: 5.00
 
-≥ 7.0: 60.0% 
+≥ 7.0: 60.0%
 
 
 
-**18) Palíndromo (Ignorando Espaços e Pontuação)** 
+**18) Palíndromo (Ignorando Espaços e Pontuação)**
 
-**Enunciado**: Leia uma frase e diga se é palíndromo desconsiderando espaços e pontuação (não precisa remover acentos se não quiser — pode ser um extra). 
+**Enunciado**: Leia uma frase e diga se é palíndromo desconsiderando espaços e pontuação (não precisa remover acentos se não quiser — pode ser um extra).
 
-**Entrada**: frase (linha) 
+**Entrada**: frase (linha)
 
-**Processamento**: Normalizar (minúsculas, remover espaços e \[^a-z0-9]), comparar com reverso 
+**Processamento**: Normalizar (minúsculas, remover espaços e \[^a-z0-9]), comparar com reverso
 
-**Saída**: “É palíndromo” ou “Não é palíndromo” 
+**Saída**: “É palíndromo” ou “Não é palíndromo”
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-frase: anotaram a data da maratona 
+frase: anotaram a data da maratona
 
-**Saída** 
+**Saída**
 
-É palíndromo 
+É palíndromo
 
 
 
-**19) Validador de Data** 
+**19) Validador de Data**
 
-**Enunciado**: Leia dia, mês e ano e informe se a data é válida (considerando anos bissextos). 
+**Enunciado**: Leia dia, mês e ano e informe se a data é válida (considerando anos bissextos).
 
-**Entrada**: dia (int), mes (int), ano (int) 
+**Entrada**: dia (int), mes (int), ano (int)
 
-**Processamento**: Verificar mês, dias do mês e regra de bissexto: (ano % 400 == 0) || (ano % 4 == 0 \&\& ano % 100 != 0) 
+**Processamento**: Verificar mês, dias do mês e regra de bissexto: (ano % 400 == 0) || (ano % 4 == 0 \&\& ano % 100 != 0)
 
-**Saída**: “Válida” ou “Inválida” 
+**Saída**: “Válida” ou “Inválida”
 
-**Exemplo** 
+**Exemplo**
 
-**Entrada** 
+**Entrada**
 
-29 2 2024 
+29 2 2024
 
-**Saída** 
+**Saída**
 
-Válida 
+Válida
 
-**Outro exemplo** 
+**Outro exemplo**
 
 31 4 2023 → Inválida
 

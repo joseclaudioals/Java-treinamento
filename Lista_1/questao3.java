@@ -11,5 +11,6 @@ import java.util.Scanner;
         fahrenheit = (9*celcius+160)/5;
 
         System.out.printf("fahrenheit=%.1f", fahrenheit);
+        
     }
  }
