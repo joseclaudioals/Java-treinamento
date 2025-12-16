@@ -46,7 +46,7 @@ public class AgendaContatos{
 
     private boolean verificarExistente(Contato p){
         for(int i=0; i<contatos.size(); i++){
-            if(contatos.get(i).getnome().equals(p.getnome())){
+            if(contatos.get(i).getnome().toLowerCase().equals(p.getnome().toLowerCase())){
                 System.out.println("Contato com mesmo nome já existente");
                 
                 return false;
@@ -57,7 +57,7 @@ public class AgendaContatos{
 
     private int buscaContato(String nome){
         for(int i=0; i<contatos.size(); i++){
-            if(contatos.get(i).getnome().equals(nome)){
+            if(contatos.get(i).getnome().toLowerCase().equals(nome.toLowerCase())){
                 return i;
             }
         }
