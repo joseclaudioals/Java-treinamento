@@ -29,8 +29,11 @@ public class Carrinho {
     }
 
     void removerItemIndice(int i){
-        if(i>0 && i<itens.size()){
+        if(i>=0 && i<itens.size()){
             total-=precos.get(i);
+
+            System.out.println("Nome: " + itens.get(i) + " | Preco: R$ " + precos.get(i));
+
             itens.remove(i);
             precos.remove(i);
 
@@ -50,8 +53,6 @@ public class Carrinho {
     }
     double getTotal(){
         return total;
-    }
-
-    
+    }    
 }
 
