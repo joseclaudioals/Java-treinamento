@@ -20,6 +20,10 @@ public class Medico {
         agenda.add(c);
     }
 
+    @Override
+    public String toString(){
+        return "\nNome: " + this.nome + "\nEspecialidade: " + this.especialidade;
+    }
     public void verificarAgenda(){
         System.out.println("--- Agenda ---");
         for(Consulta c: this.agenda){

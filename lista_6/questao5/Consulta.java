@@ -19,14 +19,14 @@ public class Consulta {
 
     @Override
     public String toString(){
-        return "\nMedico: " + medico.getNome() + "\nPaciente: " + paciente.getNome() +
+        return "\nMedico: " + medico.getNome() + "\nPaciente: " + paciente.toString() +
                 "\nValor: R$ " + valor.toString() + "\nData e hora: "+ horario.toString();
     }
 
     private void verificaAgenda(ArrayList<Consulta> agenda, LocalDateTime horario, String medicoNome)throws HorarioIndisponivelExcepion{
         for(Consulta c:agenda){
             // se o horario for igual, e estiver entre uma hora de um horario já marcado
-            if(horario.equals(c.horario) && horario.isAfter(c.horario) && horario.isBefore(c.horario.plusHours(1)))
+            if(horario.isAfter(c.horario) && horario.isBefore(c.horario.plusHours(1)))
                 throw new HorarioIndisponivelExcepion("o Dr. " + medicoNome + "esta ocupado as " + horario.getHour() + "nesta data\nSelecione outro horario e outra data");
         }
     }
@@ -50,9 +50,8 @@ public class Consulta {
         this.valor = new BigDecimal(valor);
     }
 
-    // metodo incompleto
     public void setHorario(LocalDateTime horario, Medico medico)throws HorarioIndisponivelExcepion{
-        if(!horario.isBefore(LocalDateTime.now()))
+        if(horario.isBefore(LocalDateTime.now()))
             throw new HorarioIndisponivelExcepion("A data e o horario devem ser diferentes da data e horario atuais");
 
         LocalDate hoje = LocalDate.now();

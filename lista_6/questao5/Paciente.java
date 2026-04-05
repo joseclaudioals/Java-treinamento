@@ -10,6 +10,10 @@ public class Paciente {
         setNome(nome);
     }
 
+    @Override
+    public String toString(){
+        return "\nNome:" + this.nome + "\nData de Nascimento" + this.dataNascimento.toString();
+    }
     // -- setters
 
     public void setDataNascimento(LocalDate dataNascimento) throws IllegalArgumentException {
@@ -23,4 +27,5 @@ public class Paciente {
             throw new IllegalArgumentException("O nome nao deve ser vazio");
         this.nome = nome;
     }
+
 }
