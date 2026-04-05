@@ -23,7 +23,7 @@ public class Consulta {
                 "\nValor: R$ " + valor.toString() + "\nData e hora: "+ horario.toString();
     }
 
-    void verificaAgenda(ArrayList<Consulta> agenda, LocalDateTime horario, String medicoNome)throws HorarioIndisponivelExcepion{
+    private void verificaAgenda(ArrayList<Consulta> agenda, LocalDateTime horario, String medicoNome)throws HorarioIndisponivelExcepion{
         for(Consulta c:agenda){
             // se o horario for igual, e estiver entre uma hora de um horario já marcado
             if(horario.equals(c.horario) && horario.isAfter(c.horario) && horario.isBefore(c.horario.plusHours(1)))
